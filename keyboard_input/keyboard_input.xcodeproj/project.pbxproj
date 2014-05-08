@@ -12,6 +12,16 @@
 		7F422F80191C050900924DCA /* keyboard_input.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F422F7F191C050900924DCA /* keyboard_input.1 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7F422FAA191C0E4E00924DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F422FA6191C0E4D00924DCA /* whileloop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F422F95191C0E4D00924DCA;
+			remoteInfo = whileloop;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7F422F73191C050900924DCA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +41,7 @@
 		7F422F7B191C050900924DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F422F7E191C050900924DCA /* keyboard_input-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keyboard_input-Prefix.pch"; sourceTree = "<group>"; };
 		7F422F7F191C050900924DCA /* keyboard_input.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = keyboard_input.1; sourceTree = "<group>"; };
+		7F422FA6191C0E4D00924DCA /* whileloop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = whileloop.xcodeproj; path = ../whileloop/whileloop.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,7 @@
 		7F422F6C191C050900924DCA = {
 			isa = PBXGroup;
 			children = (
+				7F422FA6191C0E4D00924DCA /* whileloop.xcodeproj */,
 				7F422F7A191C050900924DCA /* keyboard_input */,
 				7F422F77191C050900924DCA /* Frameworks */,
 				7F422F76191C050900924DCA /* Products */,
@@ -86,6 +98,14 @@
 				7F422F7E191C050900924DCA /* keyboard_input-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F422FA7191C0E4D00924DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F422FAB191C0E4E00924DCA /* whileloop */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,12 +147,28 @@
 			mainGroup = 7F422F6C191C050900924DCA;
 			productRefGroup = 7F422F76191C050900924DCA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7F422FA7191C0E4D00924DCA /* Products */;
+					ProjectRef = 7F422FA6191C0E4D00924DCA /* whileloop.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7F422F74191C050900924DCA /* keyboard_input */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7F422FAB191C0E4E00924DCA /* whileloop */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = whileloop;
+			remoteRef = 7F422FAA191C0E4E00924DCA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F422F71191C050900924DCA /* Sources */ = {

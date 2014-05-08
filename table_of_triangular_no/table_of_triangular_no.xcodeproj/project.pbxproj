@@ -20,6 +20,13 @@
 			remoteGlobalIDString = 7F422F75191C050900924DCA;
 			remoteInfo = keyboard_input;
 		};
+		7F422FCA191C122800924DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F422FC6191C122700924DCA /* nonnegative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F422FB5191C122700924DCA;
+			remoteInfo = nonnegative;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +49,7 @@
 		7F422F64191C043600924DCA /* table_of_triangular_no-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "table_of_triangular_no-Prefix.pch"; sourceTree = "<group>"; };
 		7F422F65191C043600924DCA /* table_of_triangular_no.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = table_of_triangular_no.1; sourceTree = "<group>"; };
 		7F422F86191C050900924DCA /* keyboard_input.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = keyboard_input.xcodeproj; path = ../keyboard_input/keyboard_input.xcodeproj; sourceTree = "<group>"; };
+		7F422FC6191C122700924DCA /* nonnegative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = nonnegative.xcodeproj; path = ../nonnegative/nonnegative.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 		7F422F52191C043600924DCA = {
 			isa = PBXGroup;
 			children = (
+				7F422FC6191C122700924DCA /* nonnegative.xcodeproj */,
 				7F422F86191C050900924DCA /* keyboard_input.xcodeproj */,
 				7F422F60191C043600924DCA /* table_of_triangular_no */,
 				7F422F5D191C043600924DCA /* Frameworks */,
@@ -108,6 +117,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7F422FC7191C122700924DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F422FCB191C122800924DCA /* nonnegative */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +169,10 @@
 					ProductGroup = 7F422F87191C050900924DCA /* Products */;
 					ProjectRef = 7F422F86191C050900924DCA /* keyboard_input.xcodeproj */;
 				},
+				{
+					ProductGroup = 7F422FC7191C122700924DCA /* Products */;
+					ProjectRef = 7F422FC6191C122700924DCA /* nonnegative.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -166,6 +187,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = keyboard_input;
 			remoteRef = 7F422F8A191C050A00924DCA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7F422FCB191C122800924DCA /* nonnegative */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = nonnegative;
+			remoteRef = 7F422FCA191C122800924DCA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
